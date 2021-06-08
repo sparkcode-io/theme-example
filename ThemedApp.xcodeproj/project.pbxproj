@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40A4F94526376A9600DE0A8B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A4F94426376A9600DE0A8B /* Theme.swift */; };
+		40A4F94E26376AA700DE0A8B /* AppTheme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A4F94D26376AA700DE0A8B /* AppTheme.framework */; };
+		40A4F94F26376AA700DE0A8B /* AppTheme.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 40A4F94D26376AA700DE0A8B /* AppTheme.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		40A4F95426376AE400DE0A8B /* Theme+Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A4F95326376AE400DE0A8B /* Theme+Env.swift */; };
+		40A4F95826376C9300DE0A8B /* Theme+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A4F95726376C9300DE0A8B /* Theme+View.swift */; };
+		40BE95BC263C982900418F6A /* ViewControllerPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BE95BB263C982900418F6A /* ViewControllerPreview.swift */; };
+		40BE95C2263C9E0B00418F6A /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BE95C1263C9E0B00418F6A /* RegisterView.swift */; };
+		40BE95C4263C9E7000418F6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BE95C3263C9E7000418F6A /* Main.storyboard */; };
 		40D7FD9E2633170300807257 /* ThemedAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D7FD9D2633170300807257 /* ThemedAppApp.swift */; };
 		40D7FDA02633170300807257 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D7FD9F2633170300807257 /* ContentView.swift */; };
 		40D7FDA22633170500807257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D7FDA12633170500807257 /* Assets.xcassets */; };
 		40D7FDA52633170500807257 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D7FDA42633170500807257 /* Preview Assets.xcassets */; };
 		40D7FDB02633170500807257 /* ThemedAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D7FDAF2633170500807257 /* ThemedAppTests.swift */; };
 		40D7FDBB2633170500807257 /* ThemedAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D7FDBA2633170500807257 /* ThemedAppUITests.swift */; };
+		40D7FDD2263318DE00807257 /* ThemePlanning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D7FDD1263318DE00807257 /* ThemePlanning.swift */; };
+		40F2E815263A2AAC002D4E53 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F2E814263A2AAC002D4E53 /* SignInView.swift */; };
+		40F2E819263A32AF002D4E53 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F2E818263A32AF002D4E53 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +43,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		40A4F95026376AA700DE0A8B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				40A4F94F26376AA700DE0A8B /* AppTheme.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		40A4F94426376A9600DE0A8B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		40A4F94D26376AA700DE0A8B /* AppTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A4F95326376AE400DE0A8B /* Theme+Env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Theme+Env.swift"; sourceTree = "<group>"; };
+		40A4F95726376C9300DE0A8B /* Theme+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Theme+View.swift"; sourceTree = "<group>"; };
+		40BE95BB263C982900418F6A /* ViewControllerPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPreview.swift; sourceTree = "<group>"; };
+		40BE95C1263C9E0B00418F6A /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		40BE95C3263C9E7000418F6A /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		40D7FD9A2633170300807257 /* ThemedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D7FD9D2633170300807257 /* ThemedAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemedAppApp.swift; sourceTree = "<group>"; };
 		40D7FD9F2633170300807257 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +77,9 @@
 		40D7FDB62633170500807257 /* ThemedAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemedAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D7FDBA2633170500807257 /* ThemedAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemedAppUITests.swift; sourceTree = "<group>"; };
 		40D7FDBC2633170500807257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40D7FDD1263318DE00807257 /* ThemePlanning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePlanning.swift; sourceTree = "<group>"; };
+		40F2E814263A2AAC002D4E53 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		40F2E818263A32AF002D4E53 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40A4F94E26376AA700DE0A8B /* AppTheme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +108,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40A4F94326376A7B00DE0A8B /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				40A4F94426376A9600DE0A8B /* Theme.swift */,
+				40A4F95326376AE400DE0A8B /* Theme+Env.swift */,
+				40A4F95726376C9300DE0A8B /* Theme+View.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		40A4F94C26376AA700DE0A8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40A4F94D26376AA700DE0A8B /* AppTheme.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40BE95BA263C980700418F6A /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				40BE95BB263C982900418F6A /* ViewControllerPreview.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
 		40D7FD912633170300807257 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +141,7 @@
 				40D7FDAE2633170500807257 /* ThemedAppTests */,
 				40D7FDB92633170500807257 /* ThemedAppUITests */,
 				40D7FD9B2633170300807257 /* Products */,
+				40A4F94C26376AA700DE0A8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +158,15 @@
 		40D7FD9C2633170300807257 /* ThemedApp */ = {
 			isa = PBXGroup;
 			children = (
+				40BE95BA263C980700418F6A /* Preview */,
+				40A4F94326376A7B00DE0A8B /* Theme */,
 				40D7FD9D2633170300807257 /* ThemedAppApp.swift */,
 				40D7FD9F2633170300807257 /* ContentView.swift */,
+				40D7FDD1263318DE00807257 /* ThemePlanning.swift */,
+				40F2E814263A2AAC002D4E53 /* SignInView.swift */,
+				40BE95C1263C9E0B00418F6A /* RegisterView.swift */,
+				40BE95C3263C9E7000418F6A /* Main.storyboard */,
+				40F2E818263A32AF002D4E53 /* CustomTextField.swift */,
 				40D7FDA12633170500807257 /* Assets.xcassets */,
 				40D7FDA62633170500807257 /* Info.plist */,
 				40D7FDA32633170500807257 /* Preview Content */,
@@ -140,6 +210,7 @@
 				40D7FD962633170300807257 /* Sources */,
 				40D7FD972633170300807257 /* Frameworks */,
 				40D7FD982633170300807257 /* Resources */,
+				40A4F95026376AA700DE0A8B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40BE95C4263C9E7000418F6A /* Main.storyboard in Resources */,
 				40D7FDA52633170500807257 /* Preview Assets.xcassets in Resources */,
 				40D7FDA22633170500807257 /* Assets.xcassets in Resources */,
 			);
@@ -260,7 +332,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				40D7FDA02633170300807257 /* ContentView.swift in Sources */,
+				40BE95C2263C9E0B00418F6A /* RegisterView.swift in Sources */,
+				40F2E815263A2AAC002D4E53 /* SignInView.swift in Sources */,
+				40A4F94526376A9600DE0A8B /* Theme.swift in Sources */,
+				40D7FDD2263318DE00807257 /* ThemePlanning.swift in Sources */,
+				40F2E819263A32AF002D4E53 /* CustomTextField.swift in Sources */,
 				40D7FD9E2633170300807257 /* ThemedAppApp.swift in Sources */,
+				40A4F95826376C9300DE0A8B /* Theme+View.swift in Sources */,
+				40BE95BC263C982900418F6A /* ViewControllerPreview.swift in Sources */,
+				40A4F95426376AE400DE0A8B /* Theme+Env.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +501,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ThemedApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ThemedApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,7 +522,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ThemedApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ThemedApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,7 +541,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ThemedAppTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,7 +562,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ThemedAppTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
