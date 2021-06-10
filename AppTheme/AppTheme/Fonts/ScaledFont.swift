@@ -65,6 +65,7 @@ private extension ScaledFont {
         default:
             size = defaultSize
         }
+        // we can safely force unwrap here because it is covered by our unit tests
         return RawFontAsset.codaCaptionExtraBold.load(size: size)!
     }
     
@@ -104,6 +105,7 @@ private extension ScaledFont {
         default:
             size = defaultSize
         }
+        // we can safely force unwrap here because it is covered by our unit tests
         if prefersBoldText {
             return RawFontAsset.robotoBold.load(size: size)!
         } else {
@@ -147,6 +149,7 @@ private extension ScaledFont {
         default:
             size = defaultSize
         }
+        // we can safely force unwrap here because it is covered by our unit tests
         return RawFontAsset.robotoBold.load(size: size)!
     }
     
@@ -186,6 +189,7 @@ private extension ScaledFont {
         default:
             size = defaultSize
         }
+        // we can safely force unwrap here because it is covered by our unit tests
         return RawFontAsset.robotoBold.load(size: size)!
     }
 }

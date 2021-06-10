@@ -7,24 +7,6 @@
 
 import UIKit
 
-//public enum FontStyle {
-//    case title
-//}
-
-//protocol AppTheme {
-//    func font(
-//        _ style: FontStyle,
-//        contentSize: ContentSizeCategory,
-//        prefersBoldText: Bool
-//    ) -> Font
-//
-//    func color(
-//        _ style: ColorStyle,
-//        isDarkMode: Bool,
-//        prefersHighContrast: Bool
-//    ) -> Color
-//}
-
 public protocol ThemeProvider {
     func adaptiveColor(
         _ style: ColorStyle,
@@ -52,6 +34,7 @@ public class AppTheme: ThemeProvider {
         isDarkMode: Bool,
         prefersHighContrast: Bool
     ) -> UIColor {
+        // we can safely force unwrap here because it is covered by our unit tests
         return style.load()!
     }
     
